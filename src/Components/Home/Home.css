@@ -1,0 +1,70 @@
+.txt_color{
+    color: green !important;
+}
+.nav_sec{
+    color: #0084B4;
+}
+a{
+    text-decoration: none !important;
+}
+.Breadcrumb.Item{
+    text-decoration:none !important ;
+}
+.dropdown-menu {
+    width: 180px !important;
+}
+.btn:hover{
+    background-color: #0084B4 !important;
+    color: white !important;
+}
+/* Base styles for mobile */
+.hero-section {
+    min-height: 60vh;
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .hero-section {
+      min-height: 70vh;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .hero-section {
+      min-height: 90vh;
+    }
+  }
+  
+  /* Ensure cards have consistent height on mobile */
+  @media (max-width: 767px) {
+    .destination-card {
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  /* Adjust testimonial images on small screens */
+  @media (max-width: 575px) {
+    .testimonial-img {
+      width: 50px !important;
+      height: 50px !important;
+    }
+  }
+
+  /* Destination card hover effect */
+  .destination-card:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+  /* Button hover effects */
+  .btn-outline-primary:hover {
+    background-color: #0084B4 !important;
+    color: white !important;
+  }
+
+  /* Card hover shadow effect */
+  .card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    transition: all 0.3s ease;
+  }

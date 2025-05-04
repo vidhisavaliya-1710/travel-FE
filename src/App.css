@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Constantia';
+}
+a{
+  text-decoration: none;
+}
+.dropdown-menu {
+  padding: none !important  ;
+}
+
+.spacing{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* Light Background Theme */
+.custom-card {
+  background: #FFFFFF; /* Soft White */
+  color: #333;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Title Styling */
+.title-text {
+  color: #0084B4; 
+  font-weight: bold;
+}
+
+/* Total Price */
+.total-price {
+  color: #28A745; /* Green for a positive feel */
+  font-weight: bold;
+}
+
+/* Buttons */
+.edit-btn {
+  background-color: #0084B4 !important;
+  color: white !important;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.delete-btn {
+  background-color: #DC3545 !important;
+  color: white !important;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  transform: scale(1.05);
+}
+.icon_sec{
+  background-color: #0084B4;
+  border-radius: 50%;
+  font-size: 50px;
+  padding: 10px;
+  color: white;
+  position: absolute;
+  top: -27px;
+  left: 40%;
+}
+
+.main-card{
+  position: relative;
+  /* box-shadow: 0px 0px 9px #b2b1b1; */
+}
+
+
+.payment_sec{
+  box-shadow: 0 0 15px rgb(220, 219, 218);
+  border-radius: 20px;
+  width: 100%;
+}
+.payment_sec h2{
+  color: #0084B4;
+}
+.form-check-input:checked{
+  background-color: #0084B4;
+  border-color: #0084B4;
+}
+.search-input{
+  color: black !important;
+}
