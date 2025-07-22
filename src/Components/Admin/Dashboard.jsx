@@ -5,7 +5,7 @@ import { GiConfirmed } from "react-icons/gi";
 import { FaRegUserCircle } from "react-icons/fa";
 import { IoChatbubble } from "react-icons/io5";
 import { MdAdminPanelSettings } from "react-icons/md";
-import { Chart } from 'react-charts/dist/react-charts.development';
+import { Chart } from 'react-charts';
 import { AllOrders, getpackage, showfeedback, ShowUsers } from '../../ApiService';
 import { useNavigate } from 'react-router-dom';
 import ShowFeedback from './ShowFeedback';
