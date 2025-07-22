@@ -5,7 +5,7 @@ import { GiConfirmed } from "react-icons/gi";
 import { FaRegUserCircle } from "react-icons/fa";
 import { IoChatbubble } from "react-icons/io5";
 import { MdAdminPanelSettings } from "react-icons/md";
-import { Chart } from 'recharts';
+import { Chart } from 'react-charts';
 import { AllOrders, getpackage, showfeedback, ShowUsers } from '../../ApiService';
 import { useNavigate } from 'react-router-dom';
 import ShowFeedback from './ShowFeedback';
@@ -198,11 +198,11 @@ function Dashboard() {
         height: '400px',
       }}
     >
-       {processedData.length > 0 ? (
+       {/* {processedData.length > 0 ? (
                 <Chart data={processedData} axes={axes} className='mb-3'/>
               ) : (
                 <p className="text-center">No data available for the chart</p>
-              )}
+              )} */}
     </div>
   </div>
 </div>
